@@ -1,0 +1,19 @@
+<script>
+    window.onscroll = function (e) {  
+        var scroll = window.scrollY
+        if (scroll >= 50) {
+            document.getElementById("header").classList.add('scrolled');
+        } else {
+            document.getElementById("header").classList.remove('scrolled');
+        }
+    }
+</script>
+
+
+<header id="header" class="position-fixed">
+    <ul>
+        <li><a href="#">Accueil</a>
+        <li><a href="#">Projets</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</header>
