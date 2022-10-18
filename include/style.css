@@ -1,3 +1,5 @@
+/* Général */
+
 body{
     overflow-x: hidden;
 }
@@ -10,18 +12,8 @@ html {
     width: 10px;
 }
 
-/* ::-webkit-scrollbar-track {
-    background-color: ;
-    background-color: rgb(255 255 255 / 10%);
-} */
-
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(45deg, #40a3d0, #a68eff);
-}
-
-.main{
-    background: linear-gradient(to bottom right, #b5bbff, #d3d5e9);
-    height: 100vh;
 }
 
 header{
@@ -43,4 +35,30 @@ header ul li a{
     color: #f2f2f2;
 
     /* text-decoration: none; */
+}
+
+
+
+
+/* Body */
+
+.main{
+    background: linear-gradient(to bottom right, #b5bbff, #d3d5e9);
+    height: 100vh;
+}
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: transparent;
+}
+
+.btn-bleu{
+    color: white;
+    background-color: #40a3d0;
+    border: 2px solid #40a3d0 !important;
 }
