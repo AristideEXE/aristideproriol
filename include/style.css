@@ -2,10 +2,15 @@
 
 body{
     overflow-x: hidden;
+    /* min-width: fit-content; */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track{
+    /* border : solid 1px black */
 }
 
 ::-webkit-scrollbar {
@@ -45,20 +50,30 @@ header ul li a{
 .main{
     background: linear-gradient(to bottom right, #b5bbff, #d3d5e9);
     height: 100vh;
+    width: 100%;
 }
 
 .btn{
     padding-left: 20px;
     padding-right: 20px;
+
     border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .btn:hover{
+    background: transparent;
     background-color: transparent;
+    transition: 0.2s ease-in-out;
 }
 
 .btn-bleu{
     color: white;
-    background-color: #40a3d0;
-    border: 2px solid #40a3d0 !important;
+    background: linear-gradient(45deg, #40a3d0, #a68eff);
+    border: linear-gradient(45deg, #40a3d0, #a68eff);   
+}
+
+.btn-bleu:hover{
+    border-color: black;
 }
