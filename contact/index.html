@@ -1,1 +1,52 @@
-<p>Contact</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/include/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <script src="/include/bootstrap/js/bootstrap.js" defer></script>   
+
+    <link href="/include/style.css" rel="stylesheet"/>
+
+    <title>Contact</title>
+</head>
+<body>
+    <div class="contact d-flex align-items-center w-100">
+        <div class="formulaire w-75 bg-white h-md-75 mx-auto d-flex align-items-center">
+            <form class="p-5 w-100" method="post">
+                <div class="row pb-5">
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label>Nom *</label>
+                            <input class="form-control" type="text" name="nom" required />
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <label>Prénom *</label>
+                            <input class="form-control" type="text" name="prenom" required/>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input class="form-control" type="email" name="mail" required/>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <label>Objet du message *</label>
+                            <input class="form-control" type="text" name="objet" required/>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md pt-4 pt-md-0">
+                        <label>Message *</label>
+                        <textarea required class="form-control h-100"></textarea>
+                    </div>
+                </div>
+                <input type="submit" name="submit" class="btn btn-bleu mx-auto d-block"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
