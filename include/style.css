@@ -22,13 +22,16 @@ html {
 }
 
 header{
-    left: 50%;
-    transform: translateX(-50%);
     transition: background-color 200ms linear;
+    /* background-color: gray; */
 }
 
 .scrolled{
     background-color: #a68eff;
+}
+
+header ul{
+    width: fit-content;
 }
 
 header ul li{
@@ -37,8 +40,7 @@ header ul li{
 }
 
 header ul li a{
-    color: #f2f2f2;
-
+    color: white;
     /* text-decoration: none; */
 }
 
