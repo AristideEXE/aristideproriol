@@ -1,0 +1,16 @@
+.main{
+    height: 100vh;
+    background-color: #5668BC;
+    color: white;
+}
+
+#title{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+#title span{
+    font-size: 106px;
+}
