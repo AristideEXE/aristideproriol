@@ -7,10 +7,15 @@
 #title{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 8vw;
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
 
+#mainCanvas{
+    position: relative;
+    width: 90%;
+}
+
 #title span{
-    font-size: 106px;
+    font-size: 8.5vw;
 }
